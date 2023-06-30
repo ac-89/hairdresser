@@ -522,15 +522,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.collapse {
+  visibility: collapse;
 }
 
-.font-bold {
-  font-weight: 700;
+.block {
+  display: block;
 }
 
-.underline {
-  text-decoration-line: underline;
+.table {
+  display: table;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.border {
+  border-width: 1px;
 }
