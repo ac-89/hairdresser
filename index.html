@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -27,20 +33,20 @@
     <main class="overflow-hidden font-serif">
       <section class="hero">
         <div
-          class="bg-contain bg-no-repeat md:bg-cover md:bg-fixed md:bg-clip-content md:bg-center xl:bg-top"
+          class="relative bg-cover bg-center bg-no-repeat py-24 md:bg-cover md:bg-fixed md:bg-top xl:bg-top"
           style="background-image: url(assets/images/pexels-pixabay-247322.jpg)"
         >
           <div
-            class="flex flex-col gap-2 px-14 py-32 text-center text-white md:py-48 lg:text-right"
+            class="flex flex-col gap-2 py-24 text-center text-white md:py-48 lg:pr-8 lg:text-right xl:pr-16"
           >
-            <h1 class="text-4xl lg:text-6xl xl:text-7xl">
+            <h1 class="text-4xl sm:text-4xl lg:text-6xl xl:text-7xl">
               Blonde &amp; Highlight
             </h1>
             <p class="">divide your uniqueness by your hair in style</p>
-            <a href="#">Our Services</a>
+            <a href="#" class="">Our Services</a>
           </div>
           <div
-            class="relative bottom-16 mr-4 inline-block w-1/2 bg-black p-6 text-center text-xs text-white sm:ml-8 sm:w-1/3 md:bottom-40 md:w-1/4 lg:bottom-8 lg:left-3/4 lg:w-1/5"
+            class="absolute mx-auto inline-block w-full bg-black p-6 text-center text-xs text-white sm:bottom-4 sm:right-8 sm:w-1/3 md:bottom-12 md:w-1/3 lg:bottom-8 lg:left-3/4 lg:w-1/4"
           >
             <p class="text-lg">Your First Visit?</p>
             <p class="text-lg">
@@ -51,31 +57,47 @@
           </div>
         </div>
       </section>
-      <section class="services">
-        <section class="card">
-          <img src="" alt="" class="card-icon" />
-          <h3></h3>
-          <p>
+      <section
+        class="services flex w-full flex-col items-center pt-16 sm:items-center md:flex-row md:pt-0 lg:justify-center"
+      >
+        <section class="card flex flex-col items-center md:w-3/5 lg:w-4/12">
+          <img
+            src="assets/images/hair-cut-tool.png"
+            alt=""
+            class="card-icon center my-3 inline-block w-16 pt-4"
+          />
+          <h3 class="mb-2 text-center text-2xl">Service</h3>
+          <p class="w-4/5 pb-4 text-center sm:w-3/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
             voluptate a aspernatur in quis laboriosam tempora consequatur neque
             corrupti, iure iusto dolore natus sapiente omnis fugiat
             necessitatibus officia quos ipsa.
           </p>
         </section>
-        <section class="card">
-          <img src="" alt="" class="card-icon" />
-          <h3></h3>
-          <p>
+        <section
+          class="card flex flex-col items-center bg-gray-300 md:w-3/5 lg:w-4/12 lg:py-16"
+        >
+          <img
+            src="assets/images/hair-cut-tool.png"
+            alt=""
+            class="card-icon center my-3 inline-block w-16 pt-4"
+          />
+          <h3 class="mb-2 text-center text-2xl">Service</h3>
+          <p class="w-4/5 pb-4 text-center sm:w-3/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
             voluptate a aspernatur in quis laboriosam tempora consequatur neque
             corrupti, iure iusto dolore natus sapiente omnis fugiat
             necessitatibus officia quos ipsa.
           </p>
         </section>
-        <section class="card">
-          <img src="" alt="" class="card-icon" />
-          <h3></h3>
-          <p>
+        <section class="card flex flex-col items-center md:w-3/5 lg:w-4/12">
+          <img
+            src="assets/images/hair-cut-tool.png"
+            alt=""
+            class="card-icon center my-3 inline-block w-16 pt-4"
+          />
+          <h3 class="mb-2 text-center text-2xl">Service</h3>
+          <p class="w-4/5 pb-4 text-center sm:w-3/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
             voluptate a aspernatur in quis laboriosam tempora consequatur neque
             corrupti, iure iusto dolore natus sapiente omnis fugiat
@@ -83,36 +105,111 @@
           </p>
         </section>
       </section>
-      <section class="bridal">
-        <section class="bridal-text">
-          <h4></h4>
-          <p></p>
-          <a href="#"></a>
+      <section
+        class="bridal flex flex-col items-center gap-4 bg-red-100 px-8 py-8 text-center md:flex-row md:justify-center md:gap-8 md:py-20"
+      >
+        <section class="bridal-img md:w-2/5 lg:w-2/5">
+          <img
+            src="assets/images/engin-akyurt-Ix4D4-8cQUU-unsplash.jpg"
+            alt=""
+            class=""
+          />
         </section>
-        <section class="bridal-img">
-          <img src="" alt="" />
-        </section>
-      </section>
-      <section class="staff">
-        <section class="staff-card">
-          <img src="" alt="" class="staff-photo" />
-          <div class="staff-info"><span></span><span></span></div>
-        </section>
-        <section class="staff-card">
-          <img src="" alt="" class="staff-photo" />
-          <div class="staff-info"><span></span><span></span></div>
-        </section>
-        <section class="staff-card">
-          <img src="" alt="" class="staff-photo" />
-          <div class="staff-info"><span></span><span></span></div>
+        <section class="bridal-text md:w-2/5 md:text-right lg:w-2/5">
+          <h4 class="text-3xl">Bridal Service</h4>
+          <p class="mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            nihil unde laborum saepe eius voluptatum dolore ullam, corrupti
+            voluptatem ex aperiam dolores cupiditate reprehenderit architecto
+            cumque libero aliquam nulla odio.
+          </p>
+          <a href="#" class="bg-slate-400 p-2">Learn More</a>
         </section>
       </section>
-      <section class="special-offer">
-        <p></p>
-        <p><span></span></p>
-        <a href=""></a>
+      <section
+        class="staff flex flex-col items-center justify-center gap-2 pt-16 sm:flex-wrap md:flex-row"
+      >
+        <h3 class="w-full py-4 text-center text-4xl">Our Stylists</h3>
+        <section class="staff-card flex w-3/5 flex-col items-center md:w-1/4">
+          <img
+            src="assets/images/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg"
+            alt=""
+            class="staff-photo w-4/5"
+          />
+          <div
+            class="staff-info mx-auto inline-block w-4/5 bg-black p-6 text-center text-xs text-white"
+          >
+            <span class="text-xl">Quinn Whinery</span>
+          </div>
+        </section>
+        <section class="staff-card flex w-3/5 flex-col items-center md:w-1/4">
+          <img
+            src="assets/images/michael-dagonakis-SPuo9KOWCJs-unsplash.jpg"
+            alt=""
+            class="staff-photo w-4/5"
+          />
+          <div
+            class="staff-info mx-auto inline-block w-4/5 bg-black p-4 text-center text-xs text-white"
+          >
+            <span class="text-xl">Beulah Breckinridge</span>
+          </div>
+        </section>
+        <section class="staff-card flex w-3/5 flex-col items-center md:w-1/4">
+          <img
+            src="assets/images/adam-winger-ZsUbK9zSgMo-unsplash.jpg"
+            alt=""
+            class="staff-photo w-4/5"
+          />
+          <div
+            class="staff-info mx-auto inline-block w-4/5 bg-black p-6 text-center text-xs text-white"
+          >
+            <span class="text-xl">Marcia Coke</span>
+          </div>
+        </section>
       </section>
-      <section class="lookbook"></section>
+      <section
+        class="special-offer relative mt-8 bg-cover bg-left-top bg-no-repeat px-8 py-40 text-right md:px-12 lg:px-16 lg:py-60 xl:px-20 xl:px-24 xl:py-80 2xl:px-32"
+        style="
+          background-image: url(assets/images/optimised/averie-woodard-4nulm-JUYFo-unsplash.jpg);
+        "
+      >
+        <div class="offer-card">
+          <p class="text-3xl md:text-4xl lg:text-5xl">Colour Day offer</p>
+          <p class="py-2 md:py-4 lg:text-2xl">
+            <span class="text-xl font-bold lg:text-3xl">10%</span> on haircut,
+            colour, and highlight
+          </p>
+          <a href="" class="bg-slate-400 px-3 py-2">Book Appointment</a>
+        </div>
+      </section>
+      <section class="lookbook flex flex-wrap justify-center gap-4">
+        <h4 class="w-full py-4 text-center text-4xl">Our Lookbook</h4>
+        <img
+          src="assets/images/optimised/patricio-n2WT4H30L9k-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        /><img
+          src="assets/images/optimised/kareya-saleh-tLKOj6cNwe0-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        /><img
+          src="assets/images/optimised/jessica-felicio-YEbFUPYfUlo-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        /><img
+          src="assets/images/optimised/diogo-brandao-W2yhHKHnFRI-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        /><img
+          src="assets/images/optimised/angelo-pantazis-uIyzZCdCnWc-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        /><img
+          src="assets/images/optimised/baylee-gramling-d7PGng3AcA0-unsplash.jpg"
+          alt=""
+          class="max-w-xs"
+        />
+      </section>
       <footer></footer>
     </main>
   </body>
